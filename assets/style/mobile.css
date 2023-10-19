@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    .slide-bg {
+        background-position: inherit;
+    }
+}

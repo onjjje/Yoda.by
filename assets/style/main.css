@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FCF8F5;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+img.logo {
+    width: 40px;
+    height: auto;
+}
+
+.page-wrap {
+    overflow-x: hidden;
+}
+
+.mg-t10-b20 {
+    margin: 10px 0 20px 0;
+}
+
+.slide-bg {
+    background-image: url(../bg/slide-1.png);
+    background-repeat: no-repeat;
+    background-size: auto !important;
+    background-position: 50% 50%;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #303F9F;
+}
+
+.slide-content>.slide-mockup>img {
+    width: 30%;
+    height: a;
+}
+
+.slide-mockup>img {
+    max-width: 95%;
+    height: auto;
+}
