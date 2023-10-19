@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЙоДА! - Доставка</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -26,26 +27,34 @@
         <section id="navbar">
             <div class="container d-block">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="assets/icons/logo.png" alt="ЙоДА! - Доставка" class="logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">О нас</a>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/icons/logo.png" alt="ЙоДА! - Доставка" class="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    О нас
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Наши партнеры</a></li>
+                                    <li><a class="dropdown-item" href="#">Покупателю</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <span class="navbar-text"></span>
                     </div>
-                </nav>
+                </div>
+            </nav>
             </div>
         </section>
         <section id="slide">
@@ -53,21 +62,25 @@
                 <div class="row slide-bg">
                     <div class="col-sm-8 align-self-center">
                         <div class="slide-content">
-                            <h2 class="text-lg-center text-md-center text-sm-center text-center mg-t10-b20">Мобильное
+                            <h2
+                                class="text-lg-center text-md-center text-sm-center text-center mg-t10-b20 animate__animated animate__bounceInLeft">
+                                Мобильное
                                 приложение</h2>
-                            <h1 class="text-lg-center text-md-center text-sm-center text-center mg-t10-b20">ЙоДА! -
+                            <h1
+                                class="text-lg-center text-md-center text-sm-center text-center mg-t10-b20 animate__animated animate__bounceInLeft">
+                                ЙоДА! -
                                 Доставка</h1>
-                            <div class="slide-mockup d-block d-sm-none text-center">
+                            <div class="slide-mockup d-block d-sm-none text-center animate__animated animate__flipInY">
                                 <img src="assets/mockups/app-1.png" alt="">
                             </div>
-                            <a class="mg-t10-b20" href="https://play.google.com/store/apps/details?id=by.main.yoda"
-                                target="_blank">
+                            <a class="mg-t10-b20 animate__animated animate__rubberBand"
+                                href="https://play.google.com/store/apps/details?id=by.main.yoda" target="_blank">
                                 <img src="assets/icons/google-play.png" alt="Скачать приложение из Google Play">
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-4 d-none d-sm-block">
-                        <div class="slide-mockup">
+                        <div class="slide-mockup animate__animated animate__flipInY">
                             <img src="assets/mockups/app-1.png" alt="">
                         </div>
                     </div>
