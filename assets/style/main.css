@@ -38,13 +38,20 @@ h2 {
     color: #ffffffad;
 }
 
-.nav-link.active {
-    color: #303F9F !important;
-    font-weight: 600;
+.nav-link {
+    color: #6c76b9 !important;
+    transition: 0.4s;
 }
 
-.nav-link {
-    color: #4554b9 !important;
+.nav-link:focus,
+.nav-link:hover {
+    color: #303F9F !important;
+}
+
+.nav-link.active {
+    text-decoration: dotted;
+    color: #303F9F !important;
+    font-weight: 600;
 }
 
 .dropdown-menu {
