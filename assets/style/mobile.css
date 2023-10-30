@@ -28,6 +28,10 @@
     }
 
     .slide-bg {
-        background-position: right;
+        background-position: inherit;
+    }
+
+    .slide-content {
+        color: #ffffff
     }
 }

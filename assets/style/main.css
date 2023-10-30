@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FCF8F5;
+    background: #FCF8F5 !important;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -23,9 +23,8 @@ h2 {
     font-size: 30px;
 }
 
-img.logo {
-    width: 40px;
-    height: auto;
+.title-page {
+    color: #303F9F;
 }
 
 /* bootstrap */
@@ -49,14 +48,19 @@ img.logo {
 }
 
 .dropdown-menu {
-    background: ##FCF8F5;
+    /* background-color: #FCF8F5; */
     border: 0.5px solid #ffffff;
+    box-shadow: 8px 8px 16px -4px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 8px 8px 16px -4px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 8px 8px 16px -4px rgba(0, 0, 0, 0.25);
-    box-shadow: 8px 8px 16px -4px rgba(0, 0, 0, 0.25);
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item {
+    color: #303F9F;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
     background: #303F9F;
     color: #FCF8F5;
 }
@@ -110,3 +114,6 @@ img.logo {
     max-width: 95%;
     height: auto;
 }
+
+
+/* partners */
