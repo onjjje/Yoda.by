@@ -15,13 +15,20 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
 h1,
-h2 {
+h2,
+h3 {
     color: #303F9F;
 }
 
 a {
     display: block;
+    text-decoration: none;
 }
 
 .mg-t10-b30 {
@@ -34,10 +41,6 @@ a {
 
 .pd-12 {
     padding: 12px;
-}
-
-.b-rad {
-    border-radius: 12px;
 }
 
 .container-lg {
@@ -101,6 +104,10 @@ a {
     box-shadow: 0px 0px 0px 1px rgba(48, 63, 159, 1);
 }
 
+.carousel-indicators {
+    margin-bottom: 0rem;
+}
+
 /* slide */
 .carousel-indicators [data-bs-target] {
     background-color: #624ee0;
@@ -156,16 +163,66 @@ section#service>.container-lg {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .partners-lnk {
-    max-width: 100%;
+    width: 267px;
     margin: 6px;
+    border: none;
+    border-radius: 12px;
     text-align: center;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.partners-lnk:hover {
+    box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.2);
 }
 
 .partners-lnk>img {
     width: 50%;
     height: auto;
+}
+
+/* footer */
+footer {
+    margin: 48px 0 12px 0;
+    text-align: center;
+}
+
+.footer-wrap>p {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.contact-us_item {
+    width: 240px;
+    margin: 6px 6px;
+    background: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    transition: 0.4s;
+}
+
+.contact-us_item:hover,
+.contact-us_item:focus {
+    box-shadow: 4px 4px 8px 2px rgba(34, 60, 80, 0.2);
+}
+
+.contact-us_item>h3,
+.contact-us_item>img,
+.contact-us_item>p {
+    margin: 8px 0;
+}
+
+.contact-us_item>p {
+    color: #303F9F;
 }
